@@ -1,0 +1,4 @@
+#!/bin/sh
+
+fakeroot -- tar jcvf rootfs.tar.bz2 *
+
