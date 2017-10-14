@@ -24,5 +24,6 @@ lock:x:54:
 netdev:x:82:
 users:x:100:
 nogroup:x:65534:
+mysql:x:1002:
 sshd:x:1000:
 ftp:x:1001:

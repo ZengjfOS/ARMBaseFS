@@ -6,7 +6,7 @@
 case "$1" in
  start)
 	echo "Starting watchdog..."
-	watchdog -t 30 /dev/watchdog
+	watchdog /dev/watchdog
 	;;
   stop)
 	;;
