@@ -6,6 +6,8 @@ DESC="httpd"
 NAME=httpd
 DAEMON=/usr/sbin/$NAME
 
+chmod 777 /sys/bus/i2c/devices/3-0050/eeprom
+
 case "$1" in
   start)
 	printf "Starting $DESC: "
